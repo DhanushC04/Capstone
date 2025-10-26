@@ -1,6 +1,23 @@
-# Ignore Vosk model folder (large files)
-audio_module/vosk-model-en-us-0.22/
+# Virtual environment
+.venv/
 
-# Ignore Python cache files
+# Model folders
+audio_module/vosk-model-en-in-0.5/
+
+# Python cache files
 __pycache__/
 *.pyc
+
+# Large binaries / model weights
+*.mdl
+*.fst
+*.carpa
+*.pth
+*.pt
+*.dll
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+
