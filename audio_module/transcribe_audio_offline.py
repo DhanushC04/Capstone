@@ -4,7 +4,7 @@ import sounddevice as sd
 import vosk
 import json
 
-MODEL_PATH = r"C:\Users\Dell\OneDrive\Desktop\Final Capstone\audio_module\vosk-model-en-us-0.22"
+MODEL_PATH = r"C:\Users\User\Downloads\Capstone-master\Capstone-master\audio_module\vosk-model-en-in-0.5"
 
 def transcribe_audio_offline(duration=30):
     if not os.path.exists(MODEL_PATH):
