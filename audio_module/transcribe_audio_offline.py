@@ -6,7 +6,7 @@ import json
 
 MODEL_PATH = r"C:\Users\Dell\OneDrive\Desktop\Final Capstone\audio_module\vosk-model-en-us-0.22"
 
-def transcribe_audio_offline(duration=10):
+def transcribe_audio_offline(duration=30):
     if not os.path.exists(MODEL_PATH):
         raise FileNotFoundError(f"Vosk model not found at {MODEL_PATH}")
 
