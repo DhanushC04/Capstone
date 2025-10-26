@@ -10,7 +10,7 @@ def main():
     print(f"👤 Person Detected: {person}")
 
     # STEP 2: Audio Transcription
-    transcript = transcribe_audio_offline(duration=10)
+    transcript = transcribe_audio_offline(duration=30)
     print(f"🎧 Transcript: {transcript}")
 
     # STEP 3: Summarization
